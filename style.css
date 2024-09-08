@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #441D25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.front {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.container {
+  background-color: #A58589;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(247, 247, 247);
+  margin-bottom: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 15px;
+  color: rgb(247, 247, 247);
+}
+
+select {
+  border: none;
+  color: #441D25;
+  border-radius: 2px;
+  padding: 4px;
+  font-size: 12px;
+  width: 100%;
+}
+
+button {
+  margin-top: 5px;
+  background-color: #441D25;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: rgb(247, 247, 247);
+  cursor: pointer;
+  font-weight: 500;
+  width: 70%;
+  align-self: center;
+  transition: background-color 0.2s ease-in-out;
+  text-wrap: nowrap;
+}
+
+button:hover {
+  background-color: rgb(247, 247, 247);
+  color: #441D25;
+}
+
+.timer {
+  color: rgb(247, 247, 247);
+  font-weight: 10px;
+  filter: drop-shadow(3px 3px 0px #441D25);
+}
+
+h5 {
+  color: #441D25;
+}
+
+.choice {
+  color: #441D25;
+  padding: 5px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(247, 247, 247);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.choice:hover {
+  border: 3px solid #13486fd9;
+  cursor: pointer;
+}
+
+.selected {
+  border: 3px solid #13486fd9;
+}
+
+.choice.correct {
+  border: 3px solid #19972a;
+  border-radius: 5px;
+}
+
+.choice.wrong {
+  border: 3px solid #a21717;
+  border-radius: 5px;
+}
+
+input {
+  accent-color: #441D25;
+}
+
+.start button {
+  margin-top: 15px;
+}
+
+.score-text {
+  color: rgb(247, 247, 247);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.finish h1 {
+  filter: drop-shadow(3px 3px 0px #441D25);
+}
